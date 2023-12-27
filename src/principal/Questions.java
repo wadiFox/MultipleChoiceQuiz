@@ -54,4 +54,11 @@ public void setOption4(String option4) {
 	this.option4 = option4;
 }
 
+@Override
+public String toString() {
+	return question + option1 + option2 + option3 + option4;
+}
+
+
+
 }
